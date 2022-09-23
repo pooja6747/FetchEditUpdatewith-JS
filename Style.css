@@ -1,0 +1,54 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#card{
+    display: flex;
+    border: 10x solid black;
+    padding: 50px;
+    justify-content: space-around;
+   flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.card{
+    width: 300px;
+    height: 300px;
+    box-shadow: 0 0 4px 3px pink;
+    margin-right: 30px;
+    margin-bottom: 20px;
+    padding: 10px;
+    flex-wrap: wrap;
+}
+
+.card-Username{
+    color: red;
+    font-weight: 200;
+}
+
+.popup {
+    width: 500px;
+height: 500px;
+    border-radius: 5px;
+    position: absolute;
+    top: 20%;
+    padding: 50px;
+    visibility: hidden;
+  
+    justify-content: center;
+  
+    align-items: center;
+  
+    opacity: 0;
+  
+    transition: 0.3s max-height 0.8s, 0.3s opacity 0.6s;
+  }
+  
+  .open-popup {
+    opacity: 1;
+  
+    visibility: visible;
+  }
+  
